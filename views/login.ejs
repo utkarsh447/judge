@@ -1,0 +1,10 @@
+<% include partials/header %>
+<h1><%= title %></h1>
+<form method="POST" action="/auth/login">
+    <label>Email</label><br>
+    <input type="text" name="email"><br>
+    <label>Password</label><br>
+    <input type="password" name="password"><br>    
+    <input type="submit" name="Submit">
+</form>
+<% include partials/footer %>

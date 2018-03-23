@@ -1,0 +1,12 @@
+<% include partials/header %>
+<h1><%= title %></h1>
+<form method="POST" action="/user/add">
+    <label>Name</label><br>
+    <input type="text" name="name"><br>
+    <label>Password</label><br>
+    <input type="password" name="password"><br>
+    <label>Email</label><br>
+    <input type="text" name="email"><br>
+    <input type="submit" name="Submit">
+</form>
+<% include partials/footer %>
